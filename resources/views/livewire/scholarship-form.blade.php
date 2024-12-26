@@ -32,7 +32,7 @@
         </div>
 
         <!-- Semester field -->
-        <label for="start-date">Semester saat ini</label>
+        <label for="current-semester">Semester saat ini</label>
         <div class="input-container">
             <img src="frontend/images/teacher.svg" alt="Icon" class="input-icon">
             <select wire:model.live="semester" id="semester" class="form-input">
@@ -65,7 +65,7 @@
         @endif
 
         <!-- Jenis Beasiswa field -->
-        <label for="start-date">Pilihan Beasiswa</label>
+        <label for="choose-scholarship">Pilihan Beasiswa</label>
         <div class="input-container">
             <img src="frontend/images/note-2.svg" alt="Icon" class="input-icon">
             <select wire:model="jenis_beasiswa" id="jenis_beasiswa" class="form-input"

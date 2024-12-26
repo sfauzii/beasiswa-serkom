@@ -40,41 +40,41 @@
             </p>
         </div>
 
-        <div class="card-container-about">
+        <div class="scholarship-container-about">
 
-            <div class="card-cars">
-                <div class="card cars">
+            <div class="card-scholarship">
+                <div class="card scholarship">
                     <img src="frontend/images/1.jpg" alt="Project 1">
                     <div class="card-content">
-                        <h1 class="card-title cars">Beasiswa Akademik</h1>
+                        <h1 class="card-title scholarship">Beasiswa Akademik</h1>
                         <p class="desc-card">Program beasiswa yang ditujukan untuk mahasiswa dengan prestasi akademik
                             unggul. Memberikan dukungan finansial penuh untuk biaya kuliah dan tunjangan akademik selama
                             satu semester.</p>
 
-                        <button class="view-details cars" data-type="akademik">View Details</button>
+                        <button class="view-details scholarship" data-type="akademik">View Details</button>
                     </div>
                 </div>
 
-                <div class="card cars">
+                <div class="card scholarship">
                     <img src="frontend/images/1.jpg" alt="Project 1">
                     <div class="card-content">
-                        <h1 class="card-title cars">Beasiswa Non-Akademik</h1>
+                        <h1 class="card-title scholarship">Beasiswa Non-Akademik</h1>
                         <p class="desc-card">Program beasiswa khusus bagi mahasiswa yang berprestasi di bidang non-akademik
                             seperti olahraga, seni, atau organisasi. Menyediakan dukungan biaya kuliah 75% dan fasilitas
                             pengembangan bakat.</p>
 
-                        <button class="view-details cars" data-type="non-akademik">View Details</button>
+                        <button class="view-details scholarship" data-type="non-akademik">View Details</button>
                     </div>
                 </div>
 
-                <div class="card cars">
+                <div class="card scholarship">
                     <img src="frontend/images/1.jpg" alt="Project 1">
                     <div class="card-content">
-                        <h1 class="card-title cars">Beasiswa Pelatihan</h1>
+                        <h1 class="card-title scholarship">Beasiswa Pelatihan</h1>
                         <p class="desc-card">Program pelatihan intensif dengan beasiswa penuh selama 3 bulan. Dilengkapi
                             dengan sertifikasi dan kesempatan magang di perusahaan partner untuk pengembangan karir.</p>
 
-                        <button class="view-details cars" data-type="pelatihan">View Details</button>
+                        <button class="view-details scholarship" data-type="pelatihan">View Details</button>
                     </div>
                 </div>
             </div>
@@ -132,12 +132,8 @@
                                 Anda.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
-
-
         </div>
-
     </section>
 @endsection

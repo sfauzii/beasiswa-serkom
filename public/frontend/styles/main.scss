@@ -594,8 +594,8 @@ body {
     color: #333;
 }
 
-/* Card Section */
-.card-container-about {
+/* Scholarship Section */
+.scholarship-container-about {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -876,7 +876,7 @@ body {
 
 /* Tablet (max-width: 768px) */
 @media screen and (max-width: 768px) {
-    .card-container-about {
+    .scholarship-container-about {
         flex-direction: column;
         align-items: center;
         margin-bottom: 30px;
@@ -975,7 +975,7 @@ body {
 
 /* Mobile (max-width: 480px) */
 @media screen and (max-width: 480px) {
-    // .card-container-about {
+    // .scholarship-container-about {
     //     margin-bottom: 20px;
     // }
 
@@ -1047,7 +1047,7 @@ body {
 
 }
 
-.card-cars {
+.card-scholarship {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     // gap: 10px;
@@ -1059,14 +1059,14 @@ body {
     /* Center-aligns items in each grid cell */
 }
 
-.card.cars {
+.card.scholarship {
     margin: auto;
     /* Centers each card in its grid cell */
     // margin-right: -13px;
     margin-top: 20px;
 }
 
-.card-title.cars {
+.card-title.scholarship {
     font-size: 18px;
     font-weight: bold;
     margin: 0;
@@ -1083,25 +1083,25 @@ body {
     /* Ensure full width of card content */
 }
 
-.card.cars:hover .card-title.cars {
+.card.scholarship:hover .card-title.scholarship {
     overflow: visible;
     white-space: normal;
     -webkit-line-clamp: unset;
 }
 
-.great-project-section.cars {
+.great-project-section.scholarship {
     margin-top: 30px;
 }
 
 @media(max-width: 768px) {
-    .card-cars {
+    .card-scholarship {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }
 
 
 
-    .great-project-section.cars {
+    .great-project-section.scholarship {
         margin-top: 60px !important;
     }
 
@@ -1110,14 +1110,14 @@ body {
 
 @media(min-width: 769px) and (max-width: 991px) {
 
-    .card-cars {
+    .card-scholarship {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
 
 
 
-    // .great-project-section.cars {
+    // .great-project-section.scholarship {
     //     margin-top: 60px !important;
     // }
 }
@@ -1437,7 +1437,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.card-form-booking {
+.card-form-register {
     background-color: white;
     /* Card background */
     border-radius: 15px;
