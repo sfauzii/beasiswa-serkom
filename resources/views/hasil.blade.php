@@ -1,12 +1,15 @@
 @extends('layouts.app')
 
+@section('title', 'Hasil Pendaftar Beasiswa')
+
+
 @section('content')
     <div class="container-fluid px-lg-5 py-lg-5 top-content-hasil">
         <!-- Custom Card Header -->
         <div class="row my-4">
             <div class="col-12">
                 <div
-                    class="d-flex justify-content-between align-items-center bg-white p-4 rounded-top shadow-sm border-bottom">
+                    class="d-flex justify-content-between align-items-center bg-white p-4 rounded-top border-bottom card-grafik">
                     <h4 class="mb-0 fw-bold text-dark">Daftar Pendaftar Beasiswa</h4>
                     <span class="badge bg-primary fs-6">Total: {{ $scholarships->count() }}</span>
                 </div>
@@ -28,7 +31,7 @@
         <!-- Table Section -->
         <div class="row">
             <div class="col-12">
-                <div class="bg-white p-4 rounded-bottom shadow-sm">
+                <div class="bg-white p-4 card-grafik">
                     <div class="table-responsive">
                         <table class="table table-hover table-striped">
                             <thead class="table-light">

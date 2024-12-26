@@ -13,6 +13,9 @@
 
 <link rel="stylesheet" href="{{ url('frontend/styles/main.css') }}" />
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 <link href="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.css" rel="stylesheet" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />

@@ -20,7 +20,8 @@
                     <a class="nav-link {{ Route::is('hasil') ? 'active' : '' }}" href="{{ route('hasil') }}">Hasil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link {{ Route::is('grafik') ? 'active' : '' }}"
+                        href="{{ route('grafik') }}">Grafik</a>
                 </li>
             </ul>
             <div class="btn-container">

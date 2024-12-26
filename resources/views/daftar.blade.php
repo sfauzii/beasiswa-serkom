@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', 'Daftar Beasiswa')
+
+
 @section('content')
     <section class="details">
         <!-- Section Heading with Background Image -->
