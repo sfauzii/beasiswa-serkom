@@ -10,13 +10,14 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home') }}">Home</a>
+                    <a class="nav-link {{ Route::is('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('daftar') }}">Daftar</a>
+                    <a class="nav-link {{ Route::is('daftar') ? 'active' : '' }}"
+                        href="{{ route('daftar') }}">Daftar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Hasil</a>
+                    <a class="nav-link {{ Route::is('hasil') ? 'active' : '' }}" href="{{ route('hasil') }}">Hasil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>

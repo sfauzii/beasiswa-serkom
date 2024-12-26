@@ -16,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [ScholarshipController::class, 'home']) -> name('home');
 Route::get('/daftar', [ScholarshipController::class, 'daftar']) -> name('daftar');
+Route::get('/hasil', [ScholarshipController::class, 'hasil']) -> name('hasil');
 

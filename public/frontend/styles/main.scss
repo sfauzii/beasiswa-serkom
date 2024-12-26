@@ -1761,57 +1761,17 @@ footer {
     }
 }
 
-/* Mobile Kecil (Lebar maksimum 480px) */
-// @media (max-width: 480px) {
-//     .details {
-//         padding: 20px;
-//     }
+.top-content-hasil {
+    padding-top: 80px !important;
+}
 
-//     .details-background {
-//         margin-top: 20px;
-//         height: 20vh;
-//     }
+.lihat-btn {
+    border-color: #2447f9;
+}
 
-//     .heading-content h1 {
-//         font-size: 24px;
-//     }
+.lihat-btn:hover {
+    background-color: #2447F9;
+    box-shadow: 0 0 0 .25rem #0d6efd40 !important;
+    transition: all .4s;
 
-//     .heading-content h3 {
-//         font-size: 12px;
-//     }
-
-//     .card-car-details {
-//         padding: 10px;
-//     }
-
-//     .card-car-details h2 {
-//         font-size: 18px;
-//     }
-
-//     .badge-category {
-//         font-size: 10px;
-//         padding: 4px 8px;
-//     }
-
-//     .form-group {
-//         margin-bottom: 8px;
-//     }
-
-//     .form-input {
-//         padding: 6px;
-//     }
-
-//     .icon-information p {
-//         font-size: 10px;
-//     }
-
-//     .icon-information img {
-//         width: 20px;
-//         height: 20px;
-//     }
-
-//     .detail-item h3,
-//     .detail-item p {
-//         font-size: 10px;
-//     }
-// }
+}

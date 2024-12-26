@@ -42,7 +42,7 @@ class ScholarshipForm extends Component
         'semester' => 'required|integer|min:1|max:8',
         'ipk' => 'required|numeric|min:2.8|max:4.0',
         'jenis_beasiswa' => 'required_if:isEligible,true|string',
-        'berkas' => 'required_if:isEligible,true|file|mimes:pdf,jpg,png|max:2048',
+        'berkas' => 'required_if:isEligible,true|file|mimes:pdf,jpg,png,zip|max:2048',
     ];
 
     protected $messages = [
@@ -105,9 +105,13 @@ class ScholarshipForm extends Component
                 'status_ajuan' => 'belum di verifikasi',
             ]);
 
-            $this->alert('success', 'Pendaftaran beasiswa berhasil!');
+            // Simpan alert ke dalam session
+            session()->flash('success', 'Pendaftaran beasiswa berhasil!');
 
             $this->reset();
+
+            // Redirect ke route 'hasil'
+            return redirect()->route('hasil');
         } catch (\Exception $e) {
             session()->flash('error', 'Terjadi kesalahan saat menyimpan data. Silakan coba lagi.');
         } finally {
