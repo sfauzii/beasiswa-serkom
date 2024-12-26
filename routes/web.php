@@ -14,7 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route untuk halaman home
 Route::get('/', [ScholarshipController::class, 'home'])->name('home');
+
+// Route untuk halaman daftar beasiswa
 Route::get('/daftar', [ScholarshipController::class, 'daftar'])->name('daftar');
+
+// Route untuk halaman hasil pendaftaran beasiswa
 Route::get('/hasil', [ScholarshipController::class, 'hasil'])->name('hasil');
+
+// Route untuk halaman grafik beasiswa
 Route::get('/grafik', [ScholarshipController::class, 'grafik'])->name('grafik');

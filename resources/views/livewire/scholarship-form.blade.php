@@ -133,9 +133,9 @@
 </form>
 
 <script>
-    // Listen for the scholarship-disabled event
+    // Dengarkan event scholarship-disabled
     Livewire.on('scholarship-disabled', data => {
-        // You can add additional UI feedback here if needed
+        // Anda dapat menambahkan umpan balik UI tambahan di sini jika diperlukan
         console.log(data.message);
     });
 </script>

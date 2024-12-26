@@ -9,6 +9,7 @@
 
                 <div class="bg-white p-4 rounded-full card-grafik">
                     <div style="height: 80vh;">
+                        <!-- Elemen canvas untuk menampilkan grafik -->
                         <canvas id="beasiswaChart"></canvas>
                     </div>
                 </div>
@@ -22,12 +23,12 @@
         document.addEventListener('DOMContentLoaded', function() {
             const ctx = document.getElementById('beasiswaChart').getContext('2d');
             const beasiswaChart = new Chart(ctx, {
-                type: 'polarArea', // Mengubah jenis grafik menjadi Polar Area
+                type: 'polarArea', // Jenis grafik Polar Area
                 data: {
-                    labels: @json($beasiswaData->pluck('jenis_beasiswa')),
+                    labels: @json($beasiswaData->pluck('jenis_beasiswa')), // Label untuk jenis beasiswa
                     datasets: [{
-                        label: 'Jumlah Beasiswa',
-                        data: @json($beasiswaData->pluck('total')),
+                        label: 'Jumlah Beasiswa', // Label dataset
+                        data: @json($beasiswaData->pluck('total')), // Data jumlah beasiswa
                         backgroundColor: [
                             'rgba(255, 99, 132, 0.6)',
                             'rgba(54, 162, 235, 0.6)',
@@ -35,7 +36,7 @@
                             'rgba(75, 192, 192, 0.6)',
                             'rgba(153, 102, 255, 0.6)',
                             'rgba(255, 159, 64, 0.6)'
-                        ],
+                        ], // Warna latar belakang untuk setiap data
                         borderColor: [
                             'rgba(255, 99, 132, 1)',
                             'rgba(54, 162, 235, 1)',
@@ -43,20 +44,20 @@
                             'rgba(75, 192, 192, 1)',
                             'rgba(153, 102, 255, 1)',
                             'rgba(255, 159, 64, 1)'
-                        ],
-                        borderWidth: 1
+                        ], // Warna border untuk setiap data
+                        borderWidth: 1 // Ketebalan border
                     }]
                 },
                 options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
+                    responsive: true, // Grafik responsif
+                    maintainAspectRatio: false, // Tidak mempertahankan rasio aspek
                     plugins: {
                         legend: {
-                            position: 'top'
+                            position: 'top' // Posisi legenda di atas
                         },
                         title: {
-                            display: true,
-                            text: 'Statistik Jenis Beasiswa'
+                            display: true, // Menampilkan judul
+                            text: 'Statistik Jenis Beasiswa' // Teks judul
                         }
                     }
                 }

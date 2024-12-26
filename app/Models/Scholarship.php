@@ -9,14 +9,14 @@ class Scholarship extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
-        'nama',
-        'email',
-        'no_hp',
-        'semester',
-        'ipk',
-        'jenis_beasiswa',
-        'berkas',
-        'status_ajuan'
+        protected $fillable = [
+        'nama', // Nama pendaftar
+        'email', // Email pendaftar
+        'no_hp', // Nomor HP pendaftar
+        'semester', // Semester pendaftar
+        'ipk', // IPK pendaftar
+        'jenis_beasiswa', // Jenis beasiswa yang didaftar
+        'berkas', // Berkas yang diunggah pendaftar
+        'status_ajuan' // Status ajuan beasiswa
     ];
 }

@@ -3,9 +3,10 @@
 @section('title', 'Home')
 
 @section('content')
+    <!-- Modal Detail Beasiswa -->
     <x-view-detail-popup />
 
-    <!-- Section Best About -->
+    <!-- Section Best Beasiswa -->
     <section class="best-about">
         <!-- Badge Section -->
         <div class="badge-container">
@@ -31,8 +32,7 @@
     </section>
 
 
-    <!-- Section Trust Us -->
-
+    <!-- Section Pilihan Beasiswa -->
     <section class="trust-me">
         <div class="project-info">
             <h2 class="project-title">Pilihan Beasiswa</h2>
@@ -41,8 +41,8 @@
         </div>
 
         <div class="scholarship-container-about">
-
             <div class="card-scholarship">
+                <!-- Card Beasiswa Akademik -->
                 <div class="card scholarship">
                     <img src="frontend/images/1.jpg" alt="Project 1">
                     <div class="card-content">
@@ -55,6 +55,7 @@
                     </div>
                 </div>
 
+                <!-- Card Beasiswa Non-Akademik -->
                 <div class="card scholarship">
                     <img src="frontend/images/1.jpg" alt="Project 1">
                     <div class="card-content">
@@ -67,6 +68,7 @@
                     </div>
                 </div>
 
+                <!-- Card Beasiswa Pelatihan -->
                 <div class="card scholarship">
                     <img src="frontend/images/1.jpg" alt="Project 1">
                     <div class="card-content">
@@ -98,6 +100,7 @@
                     </div>
                 </div>
                 <div class="right-content-about">
+
                     <div class="card-item-unique">
                         <img src="{{ url('frontend/images/book1.svg') }}" alt="icon" class="card-item-icon-unique">
                         <div class="card-item-text-unique">

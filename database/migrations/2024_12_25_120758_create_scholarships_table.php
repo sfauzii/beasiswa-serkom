@@ -12,16 +12,16 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('scholarships', function (Blueprint $table) {
-            $table->id();
-            $table->string('nama');
-            $table->string('email');
-            $table->string('no_hp');
-            $table->integer('semester');
-            $table->float('ipk');
-            $table->string('jenis_beasiswa');
-            $table->string('berkas');
-            $table->string('status_ajuan')->default('belum di verifikasi');
-            $table->timestamps();
+            $table->id(); // ID unik untuk setiap pendaftar
+            $table->string('nama'); // Nama pendaftar
+            $table->string('email'); // Email pendaftar
+            $table->string('no_hp'); // Nomor HP pendaftar
+            $table->integer('semester'); // Semester pendaftar
+            $table->float('ipk'); // IPK pendaftar
+            $table->string('jenis_beasiswa'); // Jenis beasiswa yang didaftar
+            $table->string('berkas'); // Berkas yang diunggah pendaftar
+            $table->string('status_ajuan')->default('belum di verifikasi'); // Status ajuan beasiswa
+            $table->timestamps(); // Timestamps untuk created_at dan updated_at
         });
     }
 
