@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ScholarshipController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [ScholarshipController::class, 'home']) -> name('home');
+Route::get('/daftar', [ScholarshipController::class, 'daftar']) -> name('daftar');
 
-Route::get('/daftar', function () {
-    return view('daftar');
-});

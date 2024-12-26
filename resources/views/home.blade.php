@@ -20,7 +20,8 @@
 
         <!-- Buttons Section -->
         <div class="buttons-container">
-            <button class="button__about btn-get-started">Daftar Sekarang</button>
+            <button class="button__about btn-get-started" onclick="location.href='{{ route('daftar') }}'">Daftar
+                Sekarang</button>
         </div>
 
         <!-- Image Section -->
@@ -90,7 +91,8 @@
                         tanpa batas dan wujudkan impian Anda.
                     </p>
                     <div class="buttons-about">
-                        <button class="button__about btn-get-started">Daftar Sekarang</button>
+                        <button class="button__about btn-get-started" onclick="location.href='{{ route('daftar') }}'">Daftar
+                            Sekarang</button>
                     </div>
                 </div>
                 <div class="right-content-about">
