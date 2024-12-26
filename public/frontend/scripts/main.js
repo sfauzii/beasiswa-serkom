@@ -158,13 +158,13 @@ document.querySelectorAll('.view-details').forEach(function (button) {
         document.getElementById('popup-content').innerHTML = content.content
 
         // Show the popup
-        document.getElementById('terms-popup').style.display = 'flex'
+        document.getElementById('details-popup').style.display = 'flex'
     })
 })
 
 // Hide the popup if clicked outside of the card
 window.addEventListener('click', function (event) {
-    const popup = document.getElementById('terms-popup')
+    const popup = document.getElementById('details-popup')
     if (event.target === popup) {
         popup.style.display = 'none'
     }

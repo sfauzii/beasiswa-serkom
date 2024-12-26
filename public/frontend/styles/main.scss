@@ -1122,8 +1122,8 @@ body {
     // }
 }
 
-//* START TERMS POP UP *//
-#terms-popup {
+//* START DETAILS POP UP *//
+#details-popup {
     display: none;
     position: fixed;
     top: 0;
@@ -1136,7 +1136,7 @@ body {
     z-index: 1001;
 }
 
-.terms-card {
+.scholarship-card {
     width: 1000px important;
     /* Pastikan ini menggantikan aturan lain */
     max-width: 100% !important;
@@ -1151,7 +1151,7 @@ body {
     height: 550px !important;
 }
 
-.terms-content {
+.scholarship-content {
     padding: 20px;
     overflow-y: auto;
     max-height: 500px;
@@ -1163,11 +1163,11 @@ body {
 }
 
 /* Hilangkan scrollbar di WebKit (Chrome, Safari) */
-.terms-content::-webkit-scrollbar {
+.scholarship-content::-webkit-scrollbar {
     display: none;
 }
 
-.terms-content h2 {
+.scholarship-content h2 {
     margin-top: 0;
     font-size: 24px;
     font-weight: bold;
@@ -1179,7 +1179,7 @@ body {
     text-align: center;
 }
 
-.terms-content p {
+.scholarship-content p {
     margin-bottom: 1em;
     line-height: 1.5;
 }
@@ -1202,7 +1202,7 @@ body {
 
 /* For tablet devices (screen width less than or equal to 768px) */
 @media (max-width: 768px) {
-    .terms-card {
+    .scholarship-card {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -1216,7 +1216,7 @@ body {
         /* Hide the image on tablets and smaller devices */
     }
 
-    .terms-content {
+    .scholarship-content {
         padding: 20px;
         justify-content: flex-start;
         /* Adjust padding and content alignment for smaller screens */
@@ -1241,7 +1241,7 @@ body {
 }
 
 @media (min-width: 769px) {
-    .terms-card {
+    .scholarship-card {
         width: 800px;
         border-radius: 35px;
         overflow: hidden;
@@ -1262,7 +1262,7 @@ body {
 
 /* For mobile devices (screen width less than or equal to 576px) */
 @media (max-width: 576px) {
-    .terms-card {
+    .scholarship-card {
         width: 90%;
         /* Make the card narrower for small screens */
         height: auto;
@@ -1271,7 +1271,7 @@ body {
         /* Adjust margin for mobile */
     }
 
-    .terms-content {
+    .scholarship-content {
         padding: 15px;
         /* Reduce padding on mobile */
     }
