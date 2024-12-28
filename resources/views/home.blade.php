@@ -44,7 +44,7 @@
             <div class="card-scholarship">
                 <!-- Card Beasiswa Akademik -->
                 <div class="card scholarship">
-                    <img src="frontend/images/1.jpg" alt="Project 1">
+                    <img src="{{ url('frontend/images/image.png') }}" alt="Project 1">
                     <div class="card-content">
                         <h1 class="card-title scholarship">Beasiswa Akademik</h1>
                         <p class="desc-card">Program beasiswa yang ditujukan untuk mahasiswa dengan prestasi akademik
@@ -57,7 +57,7 @@
 
                 <!-- Card Beasiswa Non-Akademik -->
                 <div class="card scholarship">
-                    <img src="frontend/images/1.jpg" alt="Project 1">
+                    <img src="{{ url('frontend/images/2.png') }}" alt="Project 1">
                     <div class="card-content">
                         <h1 class="card-title scholarship">Beasiswa Non-Akademik</h1>
                         <p class="desc-card">Program beasiswa khusus bagi mahasiswa yang berprestasi di bidang non-akademik
@@ -70,7 +70,7 @@
 
                 <!-- Card Beasiswa Pelatihan -->
                 <div class="card scholarship">
-                    <img src="frontend/images/1.jpg" alt="Project 1">
+                    <img src="{{ url('frontend/images/3.png') }}" alt="Project 1">
                     <div class="card-content">
                         <h1 class="card-title scholarship">Beasiswa Pelatihan</h1>
                         <p class="desc-card">Program pelatihan intensif dengan beasiswa penuh selama 3 bulan. Dilengkapi
