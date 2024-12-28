@@ -72,6 +72,13 @@ PintuBeasiswa adalah sebuah aplikasi web untuk pendaftaran dan pengelolaan beasi
 - **resources/views**: Berisi file blade template untuk tampilan aplikasi.
 - **routes/web.php**: Berisi definisi route untuk aplikasi.
 
+## 🔗 Repository
+- **Backend (Laravel):** [beasiswa-serkom](https://github.com/sfauzii/beasiswa-serkom.git)
+- **Frontend (HTML & JavaScript):** [beasiswa-frontend](https://github.com/sfauzii/beasiswa-frontend.git)
+- **Desain UI/UX (Figma):** [Desain Figma](https://www.figma.com/design/g3cAvEyLDWdHdOgXRTgcog/serkom-jwd?node-id=0-1&t=yppTM4jK0k8D34ce-1)
+- **Database:** [Struktur Database](https://drive.google.com/drive/folders/1zLXa_CeS5fEQwNK8hOZ-qJ9gUraWIVV8?usp=sharing)
+
+
 ## 🤝 Kontribusi
 
 Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini dan buat pull request dengan perubahan yang Anda buat.
@@ -82,4 +89,4 @@ Proyek ini dilisensikan di bawah lisensi MIT. Lihat file LICENSE untuk informasi
 
 ---
 
-Dibuat dengan ❤️ oleh Syahrul Fauzi
+Dibuat dengan ❤️ oleh **Syahrul Fauzi**
