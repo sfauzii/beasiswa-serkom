@@ -112,7 +112,7 @@
                 </span>
             </button>
             <button type="button" class="button__about btn-learn-more daftar" wire:loading.attr="disabled"
-                wire:target="submit">
+                wire:target="submit" onclick="window.location.href = '{{ route('home') }}'">
                 Cancel
             </button>
         </div>
